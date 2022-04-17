@@ -121,9 +121,7 @@ class fill_grid_plotter():
 
             
     def fill_empty(self):
-        print('Filling empties')
         # once all blocks are added there may be gaps
-        # this happens if x_blocks * y_blocks < blocks
         # fill the gaps with grey blocks
         col = 0
         patch_idx = self.blocks + 1
