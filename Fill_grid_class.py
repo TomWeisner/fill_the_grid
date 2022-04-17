@@ -142,7 +142,7 @@ class fill_grid_plotter():
         self.ax.set_title(''), plt.pause(pause_len_secs)
         self.ax.set_ylim([0, max_y + 1])
         for key, val in self.patches_dict.items():
-            val.set_edgecolor(None), plt.pause(pause_len_secs/100)
+            val.set_edgecolor(None), plt.pause(self.micro_pause_secs)
         
 
 fill_grid_plotter(blocks=57
